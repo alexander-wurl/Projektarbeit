@@ -15,7 +15,7 @@ jobs:
 
   - script: |
       echo "Run Tests"
-      pytest Tests/
+      # pytest Tests/ # noch nix los hier
     displayName: 'Run Tests'
 
   - task: PublishBuildArtifacts@1
