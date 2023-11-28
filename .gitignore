@@ -1,0 +1,6 @@
+/run.cmd
+/config.cmd
+/agent
+/bin
+/externals
+/.gitignore
