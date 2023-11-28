@@ -1233,3 +1233,12 @@ Date: Tue, 28 Nov 2023 13:26:09 GMT
 [2023-11-28 14:11:35Z INFO MessageListener] Sleeping for 13.864 seconds before retrying.
 [2023-11-28 14:12:39Z INFO MessageListener] Sleeping for 11.307 seconds before retrying.
 [2023-11-28 14:13:40Z INFO MessageListener] Sleeping for 12.892 seconds before retrying.
+[2023-11-28 14:14:43Z INFO MessageListener] Sleeping for 13.333 seconds before retrying.
+[2023-11-28 14:15:15Z INFO Terminal] WRITE LINE: Wird beendet...
+[2023-11-28 14:15:15Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-11-28 14:15:15Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-11-28 14:15:15Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2023-11-28 14:15:15Z WARN VisualStudioServices] GET request to https://dev.azure.com/itwurl/_apis/distributedtask/pools/12/messages has been cancelled.
+[2023-11-28 14:15:15Z INFO MessageListener] Get next message has been cancelled.
+[2023-11-28 14:15:15Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-11-28 14:15:15Z INFO AgentProcess] Agent execution been cancelled.
