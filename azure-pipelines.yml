@@ -1,0 +1,26 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-20.04'
+
+jobs:
+- job: BuildAndTest
+  displayName: 'Build and Test'
+  steps:
+  - script: |
+      echo "Install Application Requirements"
+      pip install -r requirements.txt
+    displayName: 'Install Application Requirements'
+
+  - script: |
+      echo "Run Tests"
+      pytest Tests/
+    displayName: 'Run Tests'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifacts'
+    inputs:
+      PathtoPublish: '.'  # Verzeichnis mit den Artefakten
+      ArtifactName: 'MyApp'  # Name des Artefakts
+      publishLocation: 'Container'
