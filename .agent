@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 10,
+  "agentName": "MORDECHAI",
+  "poolId": 12,
+  "poolName": "ProjektPool",
+  "serverUrl": "https://dev.azure.com/itwurl/",
+  "workFolder": "_work"
+}

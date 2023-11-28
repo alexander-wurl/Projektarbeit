@@ -1,3 +1,5 @@
 # requirements.txt
 
 # Andere Anforderungen (falls vorhanden)
+pytest==6.2.5
+
