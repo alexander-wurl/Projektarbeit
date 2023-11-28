@@ -21,6 +21,6 @@ jobs:
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifacts'
     inputs:
-      PathtoPublish: '.'  # Verzeichnis mit den Artefakten
+      PathtoPublish: './aoc'  # Verzeichnis mit den Artefakten
       ArtifactName: 'MyApp'  # Name des Artefakts
       publishLocation: 'Container'
